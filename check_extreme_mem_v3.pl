@@ -13,7 +13,7 @@ use Net::SNMP;
 use Getopt::Long;
 use Number::Format qw(format_bytes);
 
-use lib "/usr/lib64/nagios/plugins/";
+use lib "/usr/lib/nagios/plugins/";
 use utils qw($TIMEOUT %ERRORS);
 
 

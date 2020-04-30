@@ -13,7 +13,7 @@ use Net::SNMP;
 use Getopt::Long;
 use Scalar::Util qw(looks_like_number);
 
-use lib "/usr/lib64/nagios/plugins/";
+use lib "/usr/lib/nagios/plugins/";
 use utils qw($TIMEOUT %ERRORS);
 
 my $TEMP_ALRM = '1.3.6.1.4.1.1916.1.1.1.7.0';
