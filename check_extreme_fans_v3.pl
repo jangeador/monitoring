@@ -12,7 +12,7 @@ use strict;
 use Net::SNMP;
 use Getopt::Long;
 
-use lib "/usr/lib64/nagios/plugins/";
+use lib "/usr/lib/nagios/plugins/";
 use utils qw($TIMEOUT %ERRORS);
 
 my $FANTABLE = '1.3.6.1.4.1.1916.1.1.1.9.1';
